@@ -133,7 +133,6 @@ const Mutation = new GraphQLObjectType({
     },
 
     // Delete a Project
-
     deleteProject: {
       type: ProjectType,
       args: { id: { type: GraphQLNonNull(GraphQLID) } },
